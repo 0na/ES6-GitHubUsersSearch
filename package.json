@@ -1,0 +1,29 @@
+{
+  "name": "es6-githubuserssearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel script.jsx --watch --out-file script-compiled.js",
+    "build": "babel script.jsx --watch --out-file build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0na/ES6-GitHubUsersSearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0na/ES6-GitHubUsersSearch/issues"
+  },
+  "homepage": "https://github.com/0na/ES6-GitHubUsersSearch#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
