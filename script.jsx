@@ -31,15 +31,15 @@ class App extends React.Component {
     return (
       <div>
         <form onSubmit={event => this.onSubmit(event)}>
-          <label htmlFor="searchText"> Search by user name </label>{" "}
+          <label htmlFor='searchText'> Search by user name </label>
           <input
-            type="text"
-            id="searchText"
+            type='text'
+            id='searchText'
             onChange={event => this.onChangeHandle(event)}
             value={this.state.searchText}
-          />{" "}
-        </form>{" "}
-        <UsersList users={this.state.users} />{" "}
+          />
+        </form>
+        <UsersList users={this.state.users} />
       </div>
     );
   }
@@ -63,7 +63,7 @@ class User extends React.Component {
     return (
       <div>
         <img src={this.props.user.avatar_url} style={{ maxWidth: "100px" }} />
-        <a href={this.props.user.html_url} target="_blank">
+        <a href={this.props.user.html_url} target='_blank'>
           {this.props.user.login}
         </a>
       </div>
